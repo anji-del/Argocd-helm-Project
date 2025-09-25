@@ -400,7 +400,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
         - name: server
-          image:  docker build -t anji379/cartservice:latest
+          image:  docker build -t gcr.io/google-samples/microservices-demo/cartservice:v0.3.9
           ports:
             - containerPort: 7070
           env:
